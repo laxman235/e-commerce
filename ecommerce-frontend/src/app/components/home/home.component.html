@@ -1,0 +1,41 @@
+<div class="home-container">
+
+    <!-- Banner Section -->
+    <div class="banner">
+      <!-- Use local SVG banner for performance and reliability -->
+      <img src="assets/mainabnner.webp" alt="Main Banner">
+    </div>
+  
+    <!-- Categories Section -->
+<section class="categories-section">
+  <h2>Shop by Category</h2>
+  <div class="categories">
+    <div class="category-card" *ngFor="let category of categories">
+      <div class="category-image">
+        <img [src]="category.image" alt="{{category.name}}">
+      </div>
+      <p>{{category.name}}</p>
+    </div>
+  </div>
+</section>
+
+
+  
+<!-- Product List Section -->
+<div class="product-section">
+  <h2>Top Deals</h2>
+  <div class="product-list">
+    <div class="product-card" *ngFor="let product of products">
+      <div class="product-image">
+        <img [src]="product.image" alt="{{product.name}}">
+      </div>
+      <div class="product-info">
+        <h3>{{product.name}}</h3>
+        <p class="price">₹{{product.price}}</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  

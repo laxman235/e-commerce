@@ -1,0 +1,111 @@
+.auth-container {
+    width: 300px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    text-align: center;
+  }
+  
+  .auth-container input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  .auth-container button {
+    background-color: #2874f0;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .auth-container button:hover {
+    background-color: #1257c9;
+  }
+  .auth-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.auth-container h2 {
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  transition: border-color 0.2s;
+}
+
+.input-group input:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:disabled {
+  background-color: #a0c4ff;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.login-text {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.login-text a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.login-text a:hover {
+  text-decoration: underline;
+}

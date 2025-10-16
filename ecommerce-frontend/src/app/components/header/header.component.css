@@ -1,0 +1,76 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2874f0; /* Flipkart blue vibe */
+  padding: 12px 30px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.cart-btn {
+  background-color: #ffd700; /* golden like Flipkart */
+  color: #000;
+  font-weight: bold;
+}
+
+.cart-btn:hover {
+  background-color: #ffcc00;
+}
+
+.login-btn {
+  border: 1px solid white;
+}
+
+.login-btn:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+
+/* Responsive */
+@media(max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-links li {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  .nav-links a {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}

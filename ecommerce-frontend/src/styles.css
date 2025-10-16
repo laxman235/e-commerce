@@ -1,0 +1,83 @@
+/* You can add global styles to this file, and also import other style files */
+/* Apply globally */
+body, .navbar, .footer {
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+/* Optional specific tweaks */
+.logo {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-weight: 700; /* bold logo */
+}
+
+.nav-links a {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-weight: 500;
+}
+
+.footer {
+  font-family: 'Poppins', Arial, sans-serif;
+}
+/* footer styles — only CSS here, no HTML */
+.footer {
+  background-color: #0b1220; /* deep charcoal */
+  color: #d1d5db;            /* soft gray */
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 40px;
+  font-family: "Poppins", Arial, sans-serif;
+  box-shadow: 0 -1px 8px rgba(2,6,23,0.4);
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.footer .brand {
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+/* links row */
+.footer-links {
+  margin-top: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 13px;
+}
+
+.footer-links a {
+  color: #9ca3af;
+  text-decoration: none;
+  transition: color 180ms ease, transform 180ms ease;
+  display: inline-block;
+  padding: 2px 4px;
+  font-weight: 500;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+/* separators */
+.footer .sep {
+  color: #374151;
+  opacity: 0.8;
+}
+
+/* responsive */
+@media (max-width: 480px) {
+  .footer p { font-size: 13px; }
+  .footer-links { gap: 8px; font-size: 12px; flex-wrap: wrap; justify-content: center; }
+}
